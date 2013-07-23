@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 RZGamer. All rights reserved.
 //
 
-#import "MainVCAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation MainVCAppDelegate
+@implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
@@ -16,10 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    /*self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [self.window makeKeyAndVisible];*/
     return YES;
 }
 

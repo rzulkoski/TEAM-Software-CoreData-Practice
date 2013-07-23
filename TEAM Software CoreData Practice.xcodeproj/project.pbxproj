@@ -13,14 +13,21 @@
 		94A112CE179B08AA00368ED6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A112CD179B08AA00368ED6 /* CoreData.framework */; };
 		94A112D4179B08AA00368ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A112D2179B08AA00368ED6 /* InfoPlist.strings */; };
 		94A112D6179B08AA00368ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A112D5179B08AA00368ED6 /* main.m */; };
-		94A112DA179B08AA00368ED6 /* MainVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A112D9179B08AA00368ED6 /* MainVCAppDelegate.m */; };
+		94A112DA179B08AA00368ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A112D9179B08AA00368ED6 /* AppDelegate.m */; };
 		94A112DC179B08AA00368ED6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A112DB179B08AA00368ED6 /* Default.png */; };
 		94A112DE179B08AA00368ED6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A112DD179B08AA00368ED6 /* Default@2x.png */; };
 		94A112E0179B08AA00368ED6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A112DF179B08AA00368ED6 /* Default-568h@2x.png */; };
 		94A112E3179B08AA00368ED6 /* TEAM_Software_CoreData_Practice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94A112E1179B08AA00368ED6 /* TEAM_Software_CoreData_Practice.xcdatamodeld */; };
+		94A112F0179B098C00368ED6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A112E9179B098C00368ED6 /* MainStoryboard.storyboard */; };
+		94A112F1179B098C00368ED6 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A112EB179B098C00368ED6 /* MainVC.m */; };
+		94A112F2179B098C00368ED6 /* EmployeesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A112ED179B098C00368ED6 /* EmployeesTVC.m */; };
+		94A112F3179B098C00368ED6 /* EmployeeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A112EF179B098C00368ED6 /* EmployeeDetailVC.m */; };
+		94A112F6179B0AA900368ED6 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A112F5179B0AA900368ED6 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94A0A7E2179EF2260015BFDC /* EmployeeDetailDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeDetailDataSource.h; sourceTree = "<group>"; };
+		94A0A7E3179EFCCB0015BFDC /* SelectedEmployeeNameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedEmployeeNameDelegate.h; sourceTree = "<group>"; };
 		94A112C4179B08AA00368ED6 /* TEAM Software CoreData Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TEAM Software CoreData Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A112C7179B08AA00368ED6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94A112C9179B08AA00368ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,12 +37,21 @@
 		94A112D3179B08AA00368ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94A112D5179B08AA00368ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94A112D7179B08AA00368ED6 /* TEAM Software CoreData Practice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEAM Software CoreData Practice-Prefix.pch"; sourceTree = "<group>"; };
-		94A112D8179B08AA00368ED6 /* MainVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVCAppDelegate.h; sourceTree = "<group>"; };
-		94A112D9179B08AA00368ED6 /* MainVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVCAppDelegate.m; sourceTree = "<group>"; };
+		94A112D8179B08AA00368ED6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94A112D9179B08AA00368ED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		94A112DB179B08AA00368ED6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		94A112DD179B08AA00368ED6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		94A112DF179B08AA00368ED6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		94A112E2179B08AA00368ED6 /* TEAM_Software_CoreData_Practice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TEAM_Software_CoreData_Practice.xcdatamodel; sourceTree = "<group>"; };
+		94A112E9179B098C00368ED6 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		94A112EA179B098C00368ED6 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		94A112EB179B098C00368ED6 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		94A112EC179B098C00368ED6 /* EmployeesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeesTVC.h; sourceTree = "<group>"; };
+		94A112ED179B098C00368ED6 /* EmployeesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeesTVC.m; sourceTree = "<group>"; };
+		94A112EE179B098C00368ED6 /* EmployeeDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDetailVC.h; sourceTree = "<group>"; };
+		94A112EF179B098C00368ED6 /* EmployeeDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetailVC.m; sourceTree = "<group>"; };
+		94A112F4179B0AA900368ED6 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		94A112F5179B0AA900368ED6 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +100,16 @@
 		94A112CF179B08AA00368ED6 /* TEAM Software CoreData Practice */ = {
 			isa = PBXGroup;
 			children = (
-				94A112D8179B08AA00368ED6 /* MainVCAppDelegate.h */,
-				94A112D9179B08AA00368ED6 /* MainVCAppDelegate.m */,
-				94A112E1179B08AA00368ED6 /* TEAM_Software_CoreData_Practice.xcdatamodeld */,
+				94A112E9179B098C00368ED6 /* MainStoryboard.storyboard */,
+				94A112EA179B098C00368ED6 /* MainVC.h */,
+				94A112EB179B098C00368ED6 /* MainVC.m */,
+				94A112EC179B098C00368ED6 /* EmployeesTVC.h */,
+				94A112ED179B098C00368ED6 /* EmployeesTVC.m */,
+				94A112EE179B098C00368ED6 /* EmployeeDetailVC.h */,
+				94A112EF179B098C00368ED6 /* EmployeeDetailVC.m */,
+				94A0A7E2179EF2260015BFDC /* EmployeeDetailDataSource.h */,
+				94A0A7E3179EFCCB0015BFDC /* SelectedEmployeeNameDelegate.h */,
+				94A112F7179B0AAE00368ED6 /* Model */,
 				94A112D0179B08AA00368ED6 /* Supporting Files */,
 			);
 			path = "TEAM Software CoreData Practice";
@@ -95,6 +118,8 @@
 		94A112D0179B08AA00368ED6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94A112D8179B08AA00368ED6 /* AppDelegate.h */,
+				94A112D9179B08AA00368ED6 /* AppDelegate.m */,
 				94A112D1179B08AA00368ED6 /* TEAM Software CoreData Practice-Info.plist */,
 				94A112D2179B08AA00368ED6 /* InfoPlist.strings */,
 				94A112D5179B08AA00368ED6 /* main.m */,
@@ -104,6 +129,16 @@
 				94A112DF179B08AA00368ED6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A112F7179B0AAE00368ED6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94A112E1179B08AA00368ED6 /* TEAM_Software_CoreData_Practice.xcdatamodeld */,
+				94A112F4179B0AA900368ED6 /* Employee.h */,
+				94A112F5179B0AA900368ED6 /* Employee.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +197,7 @@
 				94A112DC179B08AA00368ED6 /* Default.png in Resources */,
 				94A112DE179B08AA00368ED6 /* Default@2x.png in Resources */,
 				94A112E0179B08AA00368ED6 /* Default-568h@2x.png in Resources */,
+				94A112F0179B098C00368ED6 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +209,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A112D6179B08AA00368ED6 /* main.m in Sources */,
-				94A112DA179B08AA00368ED6 /* MainVCAppDelegate.m in Sources */,
+				94A112DA179B08AA00368ED6 /* AppDelegate.m in Sources */,
 				94A112E3179B08AA00368ED6 /* TEAM_Software_CoreData_Practice.xcdatamodeld in Sources */,
+				94A112F1179B098C00368ED6 /* MainVC.m in Sources */,
+				94A112F2179B098C00368ED6 /* EmployeesTVC.m in Sources */,
+				94A112F3179B098C00368ED6 /* EmployeeDetailVC.m in Sources */,
+				94A112F6179B0AA900368ED6 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +329,7 @@
 				94A112E8179B08AA00368ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
